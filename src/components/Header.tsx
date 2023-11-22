@@ -15,19 +15,23 @@ function Header({ darkMode, setDarkMode }: HeaderProps) {
     >
       <div className="flex justify-between items-center h-full px-4 lg:px-8 xl:px-12 2xl:px-20 ">
         <p
-          className={`text-sm font-extrabold  ${
+          className={`text-sm font-extrabold lg:text-2xl  ${
             darkMode ? "text-white" : "text-black-dark"
           } `}
         >
-          Where is the world
+          Where is the world?
         </p>
         <button
           className="flex items-center space-x-2 bg-transparent"
           onClick={() => setDarkMode((prevDarkMode) => !prevDarkMode)}
         >
-          <img src={darkMode ? DarkIcon : LightIcon} alt="" />
+          <img
+            className="w-4 h-4 lg:w-5 lg:h-5"
+            src={darkMode ? DarkIcon : LightIcon}
+            alt=""
+          />
           <p
-            className={`font-nunito font-semibold font text-base ${
+            className={`font-nunito font-semibold font text-xs lg:text-base ${
               darkMode ? "text-white" : "text-black-dark"
             }`}
           >
