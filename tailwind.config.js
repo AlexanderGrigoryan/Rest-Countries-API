@@ -18,18 +18,23 @@ export default {
         nunito: "Nunito Sans, sans-serif"
       },
       boxShadow: {
-        headerShadow: "0px 2px 4px 0px rgba(0, 0, 0, 0.06)"
+        headerShadow: "0px 2px 4px 0px rgba(0, 0, 0, 0.06)",
+        inputShadow: "0px 2px 9px 0px rgba(0, 0, 0, 0.05)"
       },
 
       colors: {
         black: {
           dark: "#111517"
+        },
+        gray: {
+          placeholderLight: "#C4C4C4"
         }
-        
       },
 
       backgroundColor: {
-        darkBg: "#2B3844"
+        darkHeader: "#2B3844",
+        darkBg: "#202C36",
+        lightBg: "#FAFAFA"
       },
 
     },

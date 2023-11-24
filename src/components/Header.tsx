@@ -10,7 +10,7 @@ function Header({ darkMode, setDarkMode }: HeaderProps) {
   return (
     <div
       className={`w-full h-20 shadow-headerShadow ${
-        darkMode ? "bg-darkBg" : "bg-white"
+        darkMode ? "bg-darkHeader" : "bg-white"
       }`}
     >
       <div className="flex justify-between items-center h-full px-4 lg:px-8 xl:px-12 2xl:px-20 ">
